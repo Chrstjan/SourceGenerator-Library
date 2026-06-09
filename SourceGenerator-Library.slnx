@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SourceGenerator-Library/SourceGenerator-Library.csproj" />
+  <Project Path="TestGenerator/TestGenerator.csproj" />
+</Solution>
