@@ -107,7 +107,7 @@ namespace SourceGenerator_Library
 							}
 						
 					""";
-			context.AddSource($"{className}.g.css", source);
+			context.AddSource($"{className}.g.cs", source);
 		}
 
 		private static void GenerateMethod(StringBuilder builder, IMethodSymbol method) {

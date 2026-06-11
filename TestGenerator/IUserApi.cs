@@ -5,7 +5,7 @@ using SourceGenerator_Library;
 
 namespace TestGenerator
 {
-	[GenerateApiClient("https://jsonplaceholder.typicode.com/")]
+	[GenerateApiClient("https://jsonplaceholder.typicode.com/posts/")]
 	public interface IUserApi
 	{
 		Task<Post> GetUserByIdAsync(int id);
