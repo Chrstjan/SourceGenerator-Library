@@ -25,7 +25,7 @@ namespace SourceGenerator_Library
 
 		private void Execute(SourceProductionContext context, Compilation compilation, ImmutableArray<ClassDeclarationSyntax> typeList)
 		{
-			//if (!Debugger.IsAttached) Debugger.Launch();	Note, only used when debugging
+			//if (!Debugger.IsAttached) Debugger.Launch();
 			if (typeList.Length == 0) {
 				var desc = new DiagnosticDescriptor("SG0001", "No Classes Found", "No classes declared in the actual project.", "Problem", DiagnosticSeverity.Warning, true);
 

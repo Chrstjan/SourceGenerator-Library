@@ -9,7 +9,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SourceGenerator-Library\SourceGenerator-Library.csproj"
-                      OutputItemType="Analyzer"/>
+                      OutputItemType="Analyzer"
+                      ReferenceOutputAssembly="false"/>
   </ItemGroup>
 
 </Project>
